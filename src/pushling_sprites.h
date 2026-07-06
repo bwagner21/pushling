@@ -141,7 +141,7 @@ const uint16_t SPRITE_SAD2[256] = {
 };
 
 // Draw a 16x16 sprite scaled up by `scale` at (x, y).
-// fillRect-per-pixel keeps flash usage tiny vs pre-scaled bitmaps.
+// fillRect-per-pixel keeps the flash usage tiny vs pre-scaled bitmaps.
 inline void drawSprite(Adafruit_ST7789 &tft, const uint16_t *spr,
                        int16_t x, int16_t y, uint8_t scale) {
   for (int py = 0; py < SPRITE_H; py++) {
