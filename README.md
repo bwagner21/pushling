@@ -1,6 +1,8 @@
 A Pushling is a small creature that lives on your desk and survives
 entirely on git pushes.
 
+remove the .example from secrets.h and update wifi information and github username.
+
 Runs on an Adafruit ESP32-S2 TFT Feather + NeoKey 2 FeatherWing.
 Polls the GitHub API; feed it by shipping code.
 
